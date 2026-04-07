@@ -4,7 +4,7 @@ Widget HTML/JS thuần (no framework) hiển thị bảng giá động cho 5 d�
 
 ## Demo
 
-**[Mở demo trực tiếp trên GitHub Pages]([https://USERNAME.github.io/REPO/demo.html](https://longdz1204.github.io/bang-gia-dong-ist/))**
+**[Mở demo trực tiếp trên GitHub Pages]([https://longdz1204.github.io/bang-gia-dong-ist/])**
 
 (Sẽ cập nhật URL thật sau khi bật Pages.)
 
