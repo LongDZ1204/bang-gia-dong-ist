@@ -1,0 +1,14 @@
+# Excel temp/lock files
+~$*.xlsx
+.~lock.*
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/

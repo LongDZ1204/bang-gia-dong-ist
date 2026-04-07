@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bảng giá động — In Siêu Tốc</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="page">
+    <div id="bg-widget" class="bg-widget" aria-busy="true">Đang tải bảng giá…</div>
+  </main>
+
+  <dialog id="cta-modal" class="cta-modal">
+    <form method="dialog" id="cta-form">
+      <h3>Đặt in — Nhận báo giá</h3>
+      <p class="muted">Để lại thông tin, In Siêu Tốc sẽ liên hệ tư vấn nhanh.</p>
+      <label>Họ và tên<input type="text" name="ten" required /></label>
+      <label>Số điện thoại<input type="tel" name="sdt" required pattern="[0-9 +.-]{8,}" /></label>
+      <label>Ghi chú<textarea name="ghi_chu" rows="4"></textarea></label>
+      <div class="actions">
+        <button type="button" value="cancel" class="btn-cancel" id="cta-cancel">Hủy</button>
+        <button type="submit" class="btn-submit">Gửi yêu cầu</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
